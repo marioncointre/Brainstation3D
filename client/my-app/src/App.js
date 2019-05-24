@@ -1,6 +1,11 @@
 import React from "react";
 import "./App.css";
-import Chart from "./modals/entrepreneurship";
+import Header from "./Components/Header";
+import Hero from "./Components/Hero";
+import Links from "./Components/Links";
+import StaticGraph from "./Components/StaticGraph";
+import DoughnutGraph from "./Components/DoughnutGraph";
+import Top from "./Components/Top";
 
 const data = {
   labels: [
@@ -184,9 +189,14 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Chart data={this.state.data} />
-        <input type="range" onChange={this.myfunction} min={0} max={100} />
-        {/* <Main /> */}
+        <Header />
+        <Hero />
+        <Links />
+        <StaticGraph />
+        <DoughnutGraph />
+        <Top />
+        {/* <Chart data={this.state.data} />
+        <input type="range" onChange={this.myfunction} min={0} max={100} /> */}
       </div>
     );
   }
