@@ -1,0 +1,14 @@
+body {
+  width: 100vw;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  div {
+    margin-right: 5%;
+  }
+}

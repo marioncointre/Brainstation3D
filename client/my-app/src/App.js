@@ -170,33 +170,14 @@ class App extends React.Component {
       ]
     }
   };
-
-  // sliderHandle = event => {
-  //   let newData = this.state.data;
-  //   newData.datasets[0].data[2] = event.target.value;
-  //   this.setState({
-  //     data: newData
-  //   });
-  // };
-
-  // myfunction(event) {
-  //   let newData = this.state.data;
-  //   newData.datasets[0].data[2] = event.target.value;
-  //   this.setState({
-  //     data: newData
-  //   });
-  // }
   render() {
     return (
       <div className="App">
         <Header />
         <Hero />
-        <Links />
         <StaticGraph />
         <DoughnutGraph />
         <Top />
-        {/* <Chart data={this.state.data} />
-        <input type="range" onChange={this.myfunction} min={0} max={100} /> */}
       </div>
     );
   }
