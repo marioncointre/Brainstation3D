@@ -1,10 +1,10 @@
 body {
   width: 100vw;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 .nav {
+  width: 100vw;
+  height: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,12 +12,24 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #c50a0a;
+  color: white;
 }
 
-.nav div {
+.nav .entrepreneurship,
+.nav .firstjob {
   margin-right: 5%;
+}
+
+.nav .logo {
+  margin-right: 10%;
+  justify-self: flex-start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -3,14 +3,7 @@ import React from "react";
 
 class DoughnutGraph extends React.Component {
   render() {
-    return (
-      <div className="nav">
-        <div className="logo">{/* <img src={logo} alt="3D" /> */}</div>
-        <div className="entrepreneurship">Enrepreneurship</div>
-        <div className="firstjob">First Job</div>
-        <div className="postgrad">Postgrad</div>
-      </div>
-    );
+    return <div className="nav" />;
   }
 }
 export default DoughnutGraph;
