@@ -6,7 +6,6 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import LineChart from "./modals/LineChart";
 
 import Header from "./Components/Header";
-import Hero from "./Components/Hero";
 import StaticGraph from "./Components/StaticGraph";
 import DoughnutGraph from "./Components/DoughnutGraph";
 import Top from "./Components/Top";
