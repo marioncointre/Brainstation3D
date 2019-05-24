@@ -1,0 +1,26 @@
+body {
+  width: 100vw;
+}
+
+// margin-left: 100px;
+// margin-right: 100px;
+.nav {
+  width: 100vw;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: center;
+  background-color: #c50a0a;
+  color: white;
+  .entrepreneurship,
+  .firstjob {
+    margin-right: 5%;
+  }
+
+  .logo {
+    margin-right: 10%;
+    justify-self: flex-start;
+    align-self: flex-start;
+  }
+}

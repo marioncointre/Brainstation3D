@@ -3,15 +3,6 @@ import { Line } from "react-chartjs-2";
 import { Doughnut } from "react-chartjs-2";
 
 export default function Chart(props) {
-  console.log(props.data);
-  console.log(props.data.datasets[0]);
-  console.log(props.data.datasets[1]);
-  console.log(props.data.datasets[2]);
-  console.log(props.data.datasets[0].data[0]);
-  console.log(props.data.datasets[0].data[1]);
-  console.log(props.data.datasets[0].data[2]);
-  console.log(props.data.datasets[1].data[0]);
-
   return (
     <div>
       <h2>Data</h2>
