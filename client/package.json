@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^16.8.6"
+    "chart.js": "^2.8.0",
+    "react": "^16.8.6",
+    "react-chartjs-2": "^2.7.6"
   }
 }
