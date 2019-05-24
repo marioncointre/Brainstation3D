@@ -1,12 +1,10 @@
 import React from "react";
 import "./App.css";
-import Hero from "./Components/Hero";
 import DonutChart from "./modals/DonutChart";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import LineChart from "./modals/LineChart";
-
 import Header from "./Components/Header";
-import Hero from "./Components/Hero";
+import Hero2 from "./Components/Hero2";
 import StaticGraph from "./Components/StaticGraph";
 import DoughnutGraph from "./Components/DoughnutGraph";
 import Top from "./Components/Top";
@@ -178,13 +176,14 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        {/* <Header /> */}
-        <Hero />
+        <Header />
+         <Hero2 />
         <StaticGraph />
         <DoughnutGraph />
         <Top />
-        <BrowserRouter>
-          <Hero />
+
+      <BrowserRouter>
+          <Hero2 />
           <Switch>
             <Redirect path="/" exact to="/linechart" />
             <Route path="/donutchart" exact component={DonutChart} />

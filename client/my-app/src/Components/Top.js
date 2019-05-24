@@ -1,25 +1,19 @@
 import React from "react";
-import ReactWordcloud from "react-wordcloud";
+// import ReactWordcloud from "react-wordcloud";
+import entrepreneuship from "../styles/images/Enterpren.png";
+import studies from "../styles/images/Studies.png";
+import job from "../styles/images/Job.png";
 
 class Top extends React.Component {
   render() {
-    const words = [
-      { text: "hello", value: 3 },
-      { text: "world", value: 12.5 },
-      { text: "github", value: 1 },
-      { text: "code", value: 1 }
-    ];
-
-    function MyApp(words) {
-      return (
-        <div>
-          test
-          <ReactWordcloud words={words} />
-        </div>
-      );
-    }
-
-    return <ReactWordcloud words={words} />;
+    return (
+      <div className="top__section">
+        <div className="top__title">Title</div>
+        <img src={entrepreneuship} />
+        <img src={studies} />
+        <img src={job} />
+      </div>
+    );
   }
 }
 export default Top;
