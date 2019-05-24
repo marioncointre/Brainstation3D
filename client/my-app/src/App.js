@@ -1,10 +1,8 @@
 import React from "react";
 import "./App.css";
-import Hero from "./Components/Hero";
-import DonutChart from "./modals/DonutChart"
+import DonutChart from "./modals/DonutChart";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import LineChart from "./modals/LineChart";
-
 import Header from "./Components/Header";
 import StaticGraph from "./Components/StaticGraph";
 import DoughnutGraph from "./Components/DoughnutGraph";
@@ -173,20 +171,25 @@ class App extends React.Component {
       ]
     }
   };
-  
-  render() {  
+
+  render() {
     return (
       <div className="App">
-        <BrowserRouter>
-          <Hero />
+        <Header />
+         <Hero2 />
+        <StaticGraph />
+        <DoughnutGraph />
+        <Top />
+
+      <BrowserRouter>
+          <Hero2 />
           <Switch>
-            <Redirect path="/" exact to="/linechart"/>
+            <Redirect path="/" exact to="/linechart" />
             <Route path="/donutchart" exact component={DonutChart} />
             <Route path="/linechart" component={LineChart} />
           </Switch>
         </BrowserRouter>
       </div>
-
     );
   }
 }

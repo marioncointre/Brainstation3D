@@ -1,7 +1,9 @@
+@import "hero";
+@import "top";
+
 body {
   width: 100vw;
 }
-
 // margin-left: 100px;
 // margin-right: 100px;
 .nav {
@@ -11,7 +13,7 @@ body {
   flex-direction: row;
   align-content: space-between;
   justify-content: center;
-  background-color: #c50a0a;
+  // background-color: #c50a0a;
   color: white;
   .entrepreneurship,
   .firstjob {
