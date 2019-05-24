@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
-import Links from "./Components/Links";
 import StaticGraph from "./Components/StaticGraph";
 import DoughnutGraph from "./Components/DoughnutGraph";
 import Top from "./Components/Top";
