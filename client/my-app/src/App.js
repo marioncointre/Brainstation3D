@@ -7,6 +7,7 @@ import Header from "./Components/Header";
 import StaticGraph from "./Components/StaticGraph";
 import DoughnutGraph from "./Components/DoughnutGraph";
 import Top from "./Components/Top";
+import Hero2 from "./Components/Hero2";
 
 const data = {
   labels: [
@@ -176,12 +177,12 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-         <Hero2 />
+        <Hero2 />
         <StaticGraph />
         <DoughnutGraph />
         <Top />
 
-      <BrowserRouter>
+        <BrowserRouter>
           <Hero2 />
           <Switch>
             <Redirect path="/" exact to="/linechart" />
