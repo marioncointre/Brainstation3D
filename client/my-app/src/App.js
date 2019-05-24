@@ -4,7 +4,6 @@ import DonutChart from "./modals/DonutChart";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import LineChart from "./modals/LineChart";
 import Header from "./Components/Header";
-import Hero2 from "./Components/Hero2";
 import StaticGraph from "./Components/StaticGraph";
 import DoughnutGraph from "./Components/DoughnutGraph";
 import Top from "./Components/Top";
